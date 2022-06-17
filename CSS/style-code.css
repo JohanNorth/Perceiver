@@ -1,0 +1,72 @@
+* {
+
+    background-color: black;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.bodyContent{
+
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.container{
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    margin: 40px 20px 0 20px;
+
+   
+
+}
+
+h3 {
+
+    color: beige;
+    text-align: center;
+
+    font-size: 3em;
+    font-weight: bolder;
+    border-bottom: 3px solid rgb(196, 71, 71);
+}
+
+.box {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 15px;
+   
+
+}
+
+.dream {
+
+    display: flex;
+    flex-direction: column;
+
+    width: 32%;
+
+}
+
+img {
+
+    width: 100%;
+
+    margin-bottom: 25px;
+    /* border-radius: 5px; */
+   
+
+}

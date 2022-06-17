@@ -1,0 +1,211 @@
+/* --- ALL --- */
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(22,22,22);
+
+}
+
+/* --- HEADER, NAV, Logo, A --- */
+header {
+    display: flex;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    opacity: 0.75;
+
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+
+    height: 40px;
+
+    border-bottom: 1px solid rgb(45, 45, 45);
+}
+
+.logo {
+
+    width: 120px;
+    height: 30px;
+
+    cursor: pointer;
+    margin-right: auto;
+}
+
+li, a {
+
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+}
+
+.nav-link {
+
+    list-style: none;
+}
+
+.nav-link li {
+
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-link li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav-link li a:hover {
+    color: rgb(136, 117, 255);
+
+}
+
+
+/* --- BODY --- */
+
+.mainBody {
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    height: Auto;
+    margin: auto;
+
+    row-gap: 30px;
+    column-gap: 20px;
+
+    
+
+    
+    
+
+    min-height: 30px;
+    
+
+
+
+    margin-top: 60px;
+
+    background-color: rgb(76, 51, 51);
+    
+}
+
+.mainBodyContent {
+    width: 90%;
+    height: 200px;
+
+    margin: auto;
+
+    border: 3px solid rgb(43, 255, 0);
+
+    display: flex;
+    flex-direction: row;
+
+    /* border-bottom: 1px solid rgb(45, 45, 45);
+
+    background-color: rgb(16, 53, 145); */
+}
+
+
+/* Post Image Box */
+.mainBodyContent-imageBox-Flex {
+    width: 50%;
+    height: 100%;
+
+    border: 3px solid rgb(83, 45, 221);
+
+}
+
+.mainBodyContent-image {
+    width: 100%;
+    height: 100%;
+
+    margin: auto;
+
+    border: 3px solid rgb(219, 124, 35);
+
+}
+
+/* Post Text Box */
+.mainBodyContent-textBox-Flex {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 3px solid rgb(95, 33, 79);
+
+
+}
+
+
+.mainBodyContent-title {
+    width: 100%;
+    height: 30%;
+
+    margin: auto;
+
+    border: 3px solid blue;
+
+}
+
+.mainBodyContent-desc {
+    width: 100%;
+    height: 100%;
+
+    margin: auto;
+    
+    border: 3px solid rgb(255, 0, 162);
+
+}
+
+
+
+
+
+p {
+
+    color: aliceblue;
+}
+
+/* --- FOOTER --- */
+
+footer {
+
+    width: auto;
+    height: auto;
+
+    padding: 20px;
+    
+    border-top: 1px solid rgb(45, 45, 45);
+
+
+}
+
+.footer-text-box {
+    display:flex; 
+
+    justify-content:center;
+    align-items:center;
+
+    height: auto;
+
+    
+
+}
+
+.footer-text-box p {
+    font-size: 20px;
+
+
+    text-align: center;
+    color: rgb(153, 153, 153);
+
+}
