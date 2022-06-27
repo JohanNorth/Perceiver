@@ -3,7 +3,7 @@ body {
 }
 
 .wrapper {
-    height: 100vh;
+    height: 1000px;
     overflow-y: auto;
     overflow-x: hidden;
     perspective: 10px;
@@ -27,7 +27,7 @@ header {
     position: absolute;
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit: none;
 }
 
 .f1 {
